@@ -6,7 +6,7 @@ export const Layout = () => {
     return (
         <Split 
             className="split" 
-            sizes={[50, 50]} 
+            sizes={[45, 55]} 
             minSize={300}>
             <EditorPanel />
             <PreviewPanel />
