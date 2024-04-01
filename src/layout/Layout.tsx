@@ -4,7 +4,10 @@ import { PreviewPanel } from "./PreviewPanel";
 
 export const Layout = () => {
     return (
-        <Split className="split" sizes={[40, 60]} minSize={300}>
+        <Split 
+            className="split" 
+            sizes={[50, 50]} 
+            minSize={300}>
             <EditorPanel />
             <PreviewPanel />
         </Split>

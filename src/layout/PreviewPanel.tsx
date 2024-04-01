@@ -21,7 +21,7 @@ export const PreviewPanel = () => {
     }, [state.html, state.css, state.js]);
 
   return (
-    <div className="border-bottom w-100">
+    <div>
         <iframe srcDoc={srcDoc} title="output" width="100%" height="100%" />
     </div>
   )
