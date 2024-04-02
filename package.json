@@ -1,6 +1,7 @@
 {
   "name": "live-code-editor",
   "private": true,
+  "homepage": "https://EggSugar.github.io/live-code-editor/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
